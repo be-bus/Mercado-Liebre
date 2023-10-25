@@ -1,0 +1,119 @@
+/*---- Variables ----*/
+:root{
+    --color-amarillo:#EAC926;
+    --color-azul:#03264C;
+    --color-celeste:#1259c3;
+    --color-gris-oscuro:#666;
+    --color-gris-claro:#ebebeb;
+    --color-verde:#39b54a;
+}
+/* ---- Estilos ---- */
+/*///// GENERAL /////*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*///// HEADER /////*/
+header{
+    background-color: var(--color-amarillo);
+}
+header div{
+    font-size: 0;
+}
+.logo{
+    width: 30%;
+    margin:20px 20px;
+}
+.buscador{ /*Buscador*/
+    display: inline;
+    border:1px solid black;
+    border-radius: 2px;
+    background-color: var(--color-gris-claro);
+    padding: 1px 20px 1px 1px;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.lupita i{/*icono de busqueda*/
+    display: inline;
+    background-color: var(--color-gris-claro);
+    border: 1px solid black;
+    border-radius: 4px;
+    padding:2px 3px 3px 3px;
+    color: black;
+}
+nav{
+    margin:20px 0;
+}
+.cuotas {
+    display: block;
+    text-align: center;/* mmm vere que tendre problemas cuando pongas los iconos -_-*/
+}
+.burger-menu{/*el crustasio cascarudo*/
+    margin: 20px 0;
+    text-align: center;
+}
+.fa-bars {
+    display: inline;/*la cangreburger*/
+    background-color: var(--color-celeste);
+    color:var(--color-gris-claro);
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+/*///// CUERPO DE PAGINA /////*/
+body{
+    background-color: var(--color-gris-claro);
+}
+main section article{
+    margin:20px 10px;
+    background-color: white;
+}
+main section>h1{/*ofertas y ultimas visitas*/
+    font-size: 24px;
+    margin: 10px;
+}
+.precios{
+    font-size: 18px;
+    margin: 10px;
+}
+em{
+    font-style: normal;
+    color: var(--color-verde);
+    font-size: 16px;
+    margin: 10px;
+}
+main section article>h1{
+    font-size: 16px;
+    padding-bottom: 15px;
+    margin: 10px 0px 0px 10px;
+}
+
+/*///// FOOTER /////*/
+footer section article{
+    text-align: center;
+    padding: 10px 0;
+}
+footer{
+    background-color: white;
+}
+footer p{
+    font-size: 12px;
+}
+footer>p{/* con esto especifico sobre que exactamente aplicar estilos, en este caso sobre el copyright*/
+    text-align: center;
+}
+.ifoot{
+    font-size:2em;
+    margin-bottom: 10px;
+}
